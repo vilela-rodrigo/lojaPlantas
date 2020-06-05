@@ -4,19 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css" class="href">
 
-  <title>Home - Planta no Apê</title>
+  <title>Planta no Apê</title>
 </head>
 
 <body>
 
+  <!-- NAV -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">NomeDaLoja</a>
+      <a class="navbar-brand" href="#">Planta no Apê</a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,6 +53,7 @@
 
   </header>
 
+  <!-- HERO BANNER -->
   <div class="img-container">
     <div class="inner-container ml-5">
       <h1>Apoie o verde</h1>
@@ -60,6 +62,7 @@
     </div>
   </div>
 
+  <!-- PLANT HIGHLIGHT -->
   <div class="container col-12 mt-5">
     <div class="row">
       <div class="col-7 ml-5">
@@ -69,47 +72,40 @@
         <h5 class="mt-5">Planta do mês</h5>
         <h2>Snake Plant Laurentii</h2>
         <p>The Snake Plant Laurentii is a succulent plant characterized by its upright swordlike leaves with vibrant yellow edges. Add a pop of color by pairing it with our limited edition Summer Red Grant Planter.</p>
-        <a href="#" class="  float-right"> + Saiba mais... </a>
+        <a href="#" class="float-right"> + Saiba mais... </a>
       </div>
     </div>
   </div>
 
   <div class="container">
     <main class="container">
-      <h1 class="col-12 text-center text-info mt-5 mb-4">Destaque</h1>
+      <h2 class="mt-5 mb-4">Produtos</h2>
 
       <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="assets\imagens\plantaQualquer.jpg" alt="Card image cap">
+          <img class="card-img-top" src="./assets/images/plantaQualquer2.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Planta 1</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellendus quod tempore quia. In similique vel illo tenetur placeat, accusamus veniam eum temporibus? Recusandae repellat dicta deleniti nemo alias vitae.</p>
-
-            <p class="preco-vitrine text-info d-inline">R$ 99,00</p>
-            <a href="#" class="btn btn-info float-right">Comprar</a>
-
+            <h4 class="card-title">ZZ Plant</h4>
+            <p class="card-text">The ZZ Plant is characterized by its thick waxy green leaves. It is a great air purifying plant for beginners. This makes a great gift for a new grad!</p>
+            <button type="button" class="btn btn-dark">Comprar por R$ 99,00</button>
           </div>
         </div>
+
         <div class="card">
-          <img class="card-img-top" src="assets\imagens\plantaQualquer.jpg" alt="Card image cap">
+          <img class="card-img-top" src="./assets/images/plantaQualquer3.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Planta 2</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at aliquid ut quaerat accusamus </p>
-
-            <p class="preco-vitrine text-info d-inline">R$ 99,00</p>
-            <a href="#" class="btn btn-info float-right">Comprar</a>
-
+            <h4 class="card-title">Bird’s Nest Fern</h4>
+            <p class="card-text">If you’re looking for the perfect tropical houseplant, look no further than the Bird’s Nest Fern. Known for its wavy ripple-edge fronds that grow out of a central rosette, this plant will add vibrant pop of green to any space. We love it because it’s considered non-toxic, making it safe to keep around your furry friends. A best seller for the best dad you know.</p>
+            <button type="button" class="btn btn-dark">Comprar por R$ 99,00</button>
           </div>
         </div>
+
         <div class="card">
-          <img class="card-img-top" src="assets\imagens\plantaQualquer.jpg" alt="Card image cap">
+          <img class="card-img-top" src="./assets/images/plantaQualquer4.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Planta 3</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolore tenetur labore itaque iste placeat dolorum dolorem, velit tempora excepturi laborum mollitia reiciendis eum ratione aspernatur veniam aut impedit fugit?.</p>
-
-            <p class="preco-vitrine text-info d-inline">R$ 99,00</p>
-            <a href="#" class="btn btn-info float-right">Comprar</a>
-
+            <h4 class="card-title">Monstera Deliciosa</h4>
+            <p class="card-text">Nicknamed the “swiss cheese plant”, the Monstera deliciosa is famous for its quirky natural leaf holes. A vibrant green beauty, it can give any interior space instant jungle vibes, and only gets better with time. Gift to your new Graduate because you can’t wait to see the person they grow into.</p>
+            <button type="button" class="btn btn-dark">Comprar por R$ 99,00</button>
           </div>
         </div>
       </div>
