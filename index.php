@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" class="href">
+
   <title>Home - Planta no Apê</title>
 </head>
 
 <body>
 
-  <Header>
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">NomeDaLoja</a>
 
@@ -19,20 +22,16 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-
-
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Início<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Minha conta</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Plantas
-            </a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plantas</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Ambiente de muita luz</a>
               <a class="dropdown-item" href="#">Ambiente de pouca luz</a>
@@ -42,7 +41,7 @@
           </li>
           <li class="nav-item">
 
-            <svg class="bi bi-cart3" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <svg class="bi bi-cart3 mt-2" width="1.4em" height="1.4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
             </svg>
           </li>
@@ -51,28 +50,29 @@
       </div>
     </nav>
 
-  </Header>
+  </header>
 
-  <img class="container-fluid" src="assets\imagens\banner.png" alt="Foto de capa">
-
-
-  <div class="container col-12">
-
-
-    <table>
-      <tr>
-        <td><img width="400" height="400" src="assets\imagens\plantaQualquer2.jpg" /></td>
-
-
-        <td>
-          <h2 class="col-12 text-right  mt-5">Planta do mês</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </br>
-            Phasellus bibendum aliquet erat, ut ornare purus malesuada et.orem ipsum dolor sit amet consectetur adipisicing elit. Animi, rerum aliquam. Repudiandae aperiam repellat amet, perspiciatis ab ea minima error iusto rerum similique exercitationem architecto nobis inventore, obcaecati hic doloremque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus nisi vero, quod eveniet unde explicabo voluptatum necessitatibus blanditiis? Blanditiis sed cum sapiente esse provident accusamus nisi minima distinctio numquam?</p>
-        </td>
-      </tr>
-    </table>
+  <div class="img-container">
+    <div class="inner-container ml-5">
+      <h1>Apoie o verde</h1>
+      <h3>Do mimo no dia dos namorados ao presente de graduação – nós temos o que você precisa.</h3>
+      <button type="button" class="btn btn-dark mt-3">Buscar planta</button>
+    </div>
   </div>
-  <a href="#" class="  float-right"> + Saiba mais... </a>
+
+  <div class="container col-12 mt-5">
+    <div class="row">
+      <div class="col-7 ml-5">
+        <img width="88%" src="./assets/images/plantaQualquer.jpg" />
+      </div>
+      <div class="col-4 text-right mt-5">
+        <h5 class="mt-5">Planta do mês</h5>
+        <h2>Snake Plant Laurentii</h2>
+        <p>The Snake Plant Laurentii is a succulent plant characterized by its upright swordlike leaves with vibrant yellow edges. Add a pop of color by pairing it with our limited edition Summer Red Grant Planter.</p>
+        <a href="#" class="  float-right"> + Saiba mais... </a>
+      </div>
+    </div>
+  </div>
 
   <div class="container">
     <main class="container">
@@ -113,8 +113,7 @@
           </div>
         </div>
       </div>
-    </Main>
-
+    </main>
 
     <footer class="container-fluid bg-light text-dark mt-4 p-3 ">
 
@@ -128,14 +127,10 @@
       </ul>
     </footer>
 
-    <script src="...https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="...https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="...https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-
-
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </div>
 
 </body>
 
