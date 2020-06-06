@@ -85,48 +85,82 @@
         <div class="card">
           <img class="card-img-top" src="./assets/images/plantaQualquer2.jpg" alt="Card image cap">
           <div class="card-body">
-            <h4 class="card-title">ZZ Plant</h4>
+              <h5 class="float-right mt-1 ml-1">R$ 99,00</h5>
+              <h4 class="card-title">ZZ Plant</h4>
             <p class="card-text">The ZZ Plant is characterized by its thick waxy green leaves. It is a great air purifying plant for beginners. This makes a great gift for a new grad!</p>
-            <button type="button" class="btn btn-dark">Comprar por R$ 99,00</button>
+            <a href="#">+ Comprar</a>
           </div>
         </div>
 
         <div class="card">
           <img class="card-img-top" src="./assets/images/plantaQualquer3.jpg" alt="Card image cap">
           <div class="card-body">
+            <h5 class="float-right mt-1 ml-1">R$ 99,00</h5>
             <h4 class="card-title">Bird’s Nest Fern</h4>
-            <p class="card-text">If you’re looking for the perfect tropical houseplant, look no further than the Bird’s Nest Fern. Known for its wavy ripple-edge fronds that grow out of a central rosette, this plant will add vibrant pop of green to any space. We love it because it’s considered non-toxic, making it safe to keep around your furry friends. A best seller for the best dad you know.</p>
-            <button type="button" class="btn btn-dark">Comprar por R$ 99,00</button>
+            <p class="card-text">If you’re looking for the perfect tropical houseplant, look no further than the Bird’s Nest Fern. Known for its wavy ripple-edge fronds that grow out of a central rosette, this plant will add vibrant pop of green to any space.</p>
+            <a href="#">+ Comprar</a>
           </div>
         </div>
 
         <div class="card">
           <img class="card-img-top" src="./assets/images/plantaQualquer4.jpg" alt="Card image cap">
           <div class="card-body">
+            <h5 class="float-right mt-1 ml-1">R$ 99,00</h5>
             <h4 class="card-title">Monstera Deliciosa</h4>
-            <p class="card-text">Nicknamed the “swiss cheese plant”, the Monstera deliciosa is famous for its quirky natural leaf holes. A vibrant green beauty, it can give any interior space instant jungle vibes, and only gets better with time. Gift to your new Graduate because you can’t wait to see the person they grow into.</p>
-            <button type="button" class="btn btn-dark">Comprar por R$ 99,00</button>
+            <p class="card-text">Nicknamed the “swiss cheese plant”, the Monstera deliciosa is famous for its quirky natural leaf holes.</p>
+            <a href="#">+ Comprar</a>
           </div>
         </div>
       </div>
     </main>
 
-    <footer class="container-fluid bg-light text-dark mt-4 p-3 ">
-
-      <h4>Nome da Empresa</h4>
-      <ul style="list-style:none; padding:0; margin:0">
-        <li>Endereço</li>
-        <li>Telefone</li>
-        <li>email</li>
-        <li>CNPJ</li>
-        <li>redes sociais</li>
-      </ul>
-    </footer>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </div>
+
+  <footer class="container-fluid bg-light mt-5 p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 coluninha">
+            <ul class="text-center">
+              <li class="mt-3">
+                <a href="#">Sobre nós</a>
+              </li>
+              <li class="mt-3">
+                <a href="#">Perguntas frequentes</a>
+              </li>
+              <li class="mt-3">
+                <a href="#">Informações de entrega</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 coluninha">
+           <div class="text-center email">
+             <label class="mt-3 mb-4"><strong>Apoie o verde.</strong></label>
+              <form action="">
+                <div>
+                  <input class="text-center" type="email" value="" name="email" placeholder="Seu e-mail aqui">
+                </div>
+                <div class="mt-3">
+                  <button type="submit" name="emailsignup" class="btn">Assinar</button>
+                </div>
+              </form>              
+            </div>
+          </div>
+          <div class="col-lg-3 coluninha">
+            <ul class="text-center">
+              <li class="mt-3">
+                <a href="#">Clube de vantagens</a>
+              </li>
+              <li class="mt-3">
+                <a href="#">Entre em contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>    
+    </footer>
 
 </body>
 

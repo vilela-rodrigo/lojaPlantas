@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -40,5 +43,34 @@ h3 {
 
 h5 {
     color: #cccccc;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.coluninha a {
+    color: #333;
+}
+
+footer input {
+    padding: 8px;
+    width: 70%;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+}
+
+footer input::placeholder {
+    color: #cccccc;
+}
+
+footer .btn {
+    width: 70%;
 }
