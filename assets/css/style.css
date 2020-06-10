@@ -22,7 +22,7 @@ body {
 .inner-container {
     width: 440px;
     position: absolute;
-    margin-top: 10%;
+    margin: 5%;
 }
 
 h1 {
@@ -47,16 +47,20 @@ h5 {
     font-size: 16px;
 }
 
+main {
+    padding: 40px;
+}
+
 footer {
     display: flex;
     flex-direction: column;
 }
 
-ul {
+.footer-column ul {
     list-style-type: none;
 }
 
-.coluninha a {
+.footer-column a {
     color: #333;
 }
 
@@ -74,3 +78,37 @@ footer input::placeholder {
 footer .btn {
     width: 70%;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+    
+    .img-container {
+        background-position: right;
+    }
+
+    .inner-container {
+        width: 70%;
+        margin-left: 10%;
+        background-size: auto;
+    }
+
+    .inner-container h1 {
+        font-size: 24px;
+    }
+
+    .inner-container h3 {
+        font-size: 20px;
+    }
+
+    .shelf {
+        width: 100%;
+    }
+
+    .card-deck {
+        flex-flow: column wrap;
+    }
+    
+  }
