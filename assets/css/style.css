@@ -79,6 +79,74 @@ footer .btn {
     width: 70%;
 }
 
+/* COLOR PICKER */
+.color-picker {
+    display: flex;
+    justify-content: space-evenly;
+    width: 340px;
+}
+
+.color-picker span {
+    display: flex;
+    height: 20px;
+    width: 70px;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 10px;
+    margin-top: 14px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.green, .white, .black, .petroleum {
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.green {
+    background: linear-gradient(
+        to bottom,
+        green 0px, green 18px,
+        white 18px, white 20px 
+    );
+}
+
+.white {
+    background: linear-gradient(
+        to bottom,
+        #ccc 0px, #ccc 18px,
+        white 18px, white 20px 
+    );
+}
+
+.black {
+    background: linear-gradient(
+        to bottom,
+        black 0px, black 18px,
+        white 18px, white 20px 
+    );
+}
+
+.petroleum {
+    background: linear-gradient(
+        to bottom,
+        mediumseagreen 0px, mediumseagreen 18px,
+        white 18px, white 20px 
+    );
+}
+
+input:checked + label {
+    background-position: 0 -18px;
+    color: white;
+}
+  
+
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
     main {
@@ -110,5 +178,5 @@ footer .btn {
     .card-deck {
         flex-flow: column wrap;
     }
-    
+
   }
