@@ -21,10 +21,10 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plantas</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Ambiente de muita luz</a>
-                            <a class="dropdown-item" href="#">Ambiente de pouca luz</a>
+                            <a class="dropdown-item" href="./plantasLuz.php">Ambiente de muita luz</a>
+                            <a class="dropdown-item" href="./plantasSombra.php">Ambiente de pouca luz</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Qualquer ambiente</a>
+                            <a class="dropdown-item" href="./products.php">Qualquer ambiente</a>
                         </div>
                     </li>
                     <li class="nav-item">
