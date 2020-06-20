@@ -25,7 +25,7 @@
       <h5 class="mt-5">Planta do mês</h5>
       <h2>Snake Plant Laurentii</h2>
       <p>The Snake Plant Laurentii is a succulent plant characterized by its upright swordlike leaves with vibrant yellow edges. Add a pop of color by pairing it with our limited edition Summer Red Grant Planter.</p>
-      <a href="./product.php" class="float-right"> + Saiba mais... </a>
+      <a href="./product1.php" class="float-right"> + Saiba mais... </a>
     </div>
 
   </div>
@@ -43,7 +43,7 @@
         <h5 class="mt-1 ml-1 price">R$ 99,00</h5>
         <h4 class="card-title">ZZ Plant</h4>
         <p class="card-text">The ZZ Plant is characterized by its thick waxy green leaves. It is a great air purifying plant for beginners. This makes a great gift for a new grad!</p>
-        <a href="./product.php">+ Comprar</a>
+        <a href="./product2.php">+ Comprar</a>
       </div>
     </div>
 
@@ -53,7 +53,7 @@
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
         <h4 class="card-title">Bird’s Nest Fern</h4>
         <p class="card-text">If you’re looking for the perfect tropical houseplant, look no further than the Bird’s Nest Fern. Known for its wavy ripple-edge fronds that grow out of a central rosette, this plant will add vibrant pop of green to any space.</p>
-        <a href="./product.php">+ Comprar</a>
+        <a href="./product3.php">+ Comprar</a>
       </div>
     </div>
 
@@ -63,7 +63,7 @@
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
         <h4 class="card-title">Monstera Deliciosa</h4>
         <p class="card-text">Nicknamed the “swiss cheese plant”, the Monstera deliciosa is famous for its quirky natural leaf holes.</p>
-        <a href="./product.php">+ Comprar</a>
+        <a href="./product4.php">+ Comprar</a>
       </div>
     </div>
   </div>
