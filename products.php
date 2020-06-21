@@ -6,13 +6,11 @@
 
 <!-- PRODUCTS -->
 <main>
-  <h2 class="mt-5 mb-4">Produtos</h2>
-
   <div class="card-deck my-4">
     <div class="card">
       <img class="card-img-top" src="./assets/images/plantaQualquer2.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="mt-1 ml-1 price">R$ 99,00</h5>
+        <h5 class="mt-1 ml-1">R$ 99,00</h5>
         <h4 class="card-title">ZZ Plant</h4>
         <p class="card-text">The ZZ Plant is characterized by its thick waxy green leaves. It is a great air purifying plant for beginners. This makes a great gift for a new grad!</p>
         <a href="./product.php">+ Comprar</a>
@@ -44,7 +42,7 @@
     <div class="card">
       <img class="card-img-top" src="./assets/images/plantaQualquer2.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="mt-1 ml-1 price">R$ 99,00</h5>
+        <h5 class="mt-1 ml-1">R$ 99,00</h5>
         <h4 class="card-title">ZZ Plant</h4>
         <p class="card-text">The ZZ Plant is characterized by its thick waxy green leaves. It is a great air purifying plant for beginners. This makes a great gift for a new grad!</p>
         <a href="./product.php">+ Comprar</a>
@@ -76,7 +74,7 @@
     <div class="card">
       <img class="card-img-top" src="./assets/images/plantaQualquer2.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="mt-1 ml-1 price">R$ 99,00</h5>
+        <h5 class="mt-1 ml-1">R$ 99,00</h5>
         <h4 class="card-title">ZZ Plant</h4>
         <p class="card-text">The ZZ Plant is characterized by its thick waxy green leaves. It is a great air purifying plant for beginners. This makes a great gift for a new grad!</p>
         <a href="./product.php">+ Comprar</a>
