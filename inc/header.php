@@ -9,8 +9,7 @@
                 <a class="name-shop text-dark" href="./index.php">Planteliê</a>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
-                <a class="text-muted cart fa fa-shopping-cart mr-4" href="#">
-                </a>
+                <a class="text-muted cart fa fa-shopping-cart mr-4" href="#"></a>
                 <a class="btn-sm btn-secondary mr-2" href="./cadastro.php" role="button">Entrar</a>
             </div>
         </div>

@@ -38,6 +38,10 @@ h5 {
     font-size: 16px;
 }
 
+ul {
+    list-style: none;
+}
+
 .name-shop {
     font-family: 'Playfair Display', serif;
     font-size: 1.6em;
@@ -45,11 +49,9 @@ h5 {
 }
 
 .price {
-    /* font-family: 'Playfair Display', serif; */
-    font-size: 1.4em;
-    font-weight: 700;
-    color: #cccccc;
-    margin-bottom: 16px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #333;
 }
 
 .call {
@@ -112,6 +114,21 @@ h5 {
     border-radius: .3em;
 }
 
+.quantity {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    width: 120px;
+    padding-left: 24px;
+}
+
+.pot {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    height: 42px;
+    padding-left: 24px;
+}
 
 /* COLOR PICKER */
 .color-picker {

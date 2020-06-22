@@ -41,11 +41,26 @@
   <!-- ABOUT -->
   <div class="col-md-5 mt-5 product-page-info">
     <h1>Snake Plant Laurentii</h1>
-    <div class="price">R$ 99,00</div>
+    <div class="price mb-5">R$ 99,00</div>
     <p>The Snake Plant Laurentii is a succulent plant characterized by its upright swordlike leaves with vibrant yellow edges. Add a pop of color by pairing it with our limited edition Summer Red Grant Planter.</p>
 
+    <!-- QUANTIDADE -->
+    <section class="mb-3">
+      <h5>Quantidade:</h5>
+      <input type="number" value="1" class="quantity form-control">
+    </section>
+
+    <!-- VASO -->
+    <section class="mb-3">
+      <h5>Formato do vaso:</h5>
+      <select class="pot custom-select">
+        <option selected>Grant</option>
+        <option value="1">Hyde</option>
+      </select>
+    </section>
+
     <!-- COLOR PICKER -->
-    <section class="container col-md-12">
+    <section class="col-md-12 mb-3">
       <div class="row mb-2">
         <h5>Cor do vaso: <span><?php $color_name ?></span></h5>
       </div>

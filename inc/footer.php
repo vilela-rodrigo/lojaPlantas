@@ -39,6 +39,9 @@
           <li class="mt-3">
             <a href="./contact.php">Entre em contato</a>
           </li>
+          <li class="mt-3">
+            <a href="./politicasPrivacidade.php">Políticas de privacidade</a>
+          </li>
         </ul>
       </div>
     </div>
