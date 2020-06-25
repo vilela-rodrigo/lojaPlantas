@@ -9,7 +9,7 @@
   <div class="inner-container">
     <h1>Vem chegando o inverno...</h1>
     <h3>Dê uma suculenta a quem você gosta.</h3>
-    <a class="btn btn-dark button" href="./products.php">Buscar planta</a>
+    <a class="btn btn-dark button mt-3" href="./catalogo.php">Encontre sua planta</a>
   </div>
 </section>
 
@@ -22,7 +22,7 @@
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
         <h4 class="card-title">ZZ Plant</h4>
         <p class="card-text">The ZZ Plant is characterized by its thick waxy green leaves. It is a great air purifying plant for beginners. This makes a great gift for a new grad!</p>
-        <a href="./product.php">+ Comprar</a>
+        <a href="./produto.php">+ Comprar</a>
       </div>
     </div>
 
@@ -32,7 +32,7 @@
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
         <h4 class="card-title">Bird’s Nest Fern</h4>
         <p class="card-text">If you’re looking for the perfect tropical houseplant, look no further than the Bird’s Nest Fern. Known for its wavy ripple-edge fronds that grow out of a central rosette, this plant will add vibrant pop of green to any space.</p>
-        <a href="./product.php">+ Comprar</a>
+        <a href="./produto.php">+ Comprar</a>
       </div>
     </div>
 
@@ -42,7 +42,7 @@
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
         <h4 class="card-title">Monstera Deliciosa</h4>
         <p class="card-text">Nicknamed the “swiss cheese plant”, the Monstera deliciosa is famous for its quirky natural leaf holes.</p>
-        <a href="./product.php">+ Comprar</a>
+        <a href="./produto.php">+ Comprar</a>
       </div>
     </div>
   </div>
@@ -52,14 +52,14 @@
 <section class="container col-12 mt-5">
   <div class="row">
     <div class="col-lg-5 col-md-7">
-      <img width="100%" src="./assets/images/plantaQualquer.jpg" />
+      <img class="rounded" width="100%" src="./assets/images/plantaQualquer.jpg" />
     </div>
 
     <div class="col-md-5 mt-5">
       <h5 class="mt-5">Planta do mês</h5>
       <h2>Snake Plant Laurentii</h2>
       <p>The Snake Plant Laurentii is a succulent plant characterized by its upright swordlike leaves with vibrant yellow edges. Add a pop of color by pairing it with our limited edition Summer Red Grant Planter.</p>
-      <a href="./product.php"> + Saiba mais... </a>
+      <a href="./produto.php"> + Saiba mais... </a>
     </div>
 
   </div>

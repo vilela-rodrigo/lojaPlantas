@@ -16,7 +16,7 @@ body {
     margin-right: auto;
 }
 
-/* TYPOHRAPHY */
+/* TYPOGRAPHY */
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.6em;
@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-    font-size: .8em;
+    font-size: 1em;
 }
 
 h5 {
@@ -61,19 +61,17 @@ ul {
 
 /* BUTTON */
 .cta {
-    border-radius: 24px;
-    width: 200px;
-    height: 44px;
+    width: 70%;
 }
 
 .button {
     border-radius: 24px;
-    width: 200px;
-    height: 44px;
+    height: 42px;
 }
 
-.btn {
-    width: 70%;
+.login {
+    border-radius: 24px;
+    text-align: center;
 }
 
 /* HERO BANNER */
@@ -86,7 +84,7 @@ ul {
 }
 
 .inner-container {
-    width: 240px;
+    width: 280px;
 }
 
 /* NAV TOP */
@@ -107,6 +105,26 @@ ul {
     overflow-x: auto;
     text-align: center;
     white-space: nowrap;
+}
+
+/* MODAL */
+.modal-body input {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    padding-left: 24px;
+}
+
+.modal-footer {
+    justify-content: space-around;
+}
+
+/* SIGN UP */
+.sign-up input {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    padding-left: 24px;
 }
 
 /* PRODUCT */
@@ -194,7 +212,7 @@ input[type="radio"] {
         
 input:checked + label {
     background-position: 0 -18px;
-    color: white;
+    /* color: white; */
 }
             
 /* CONTACT */

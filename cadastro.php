@@ -8,53 +8,60 @@
 
   <main class="container my-5">
 
-    <form action="principal.php" method="$_POST" class="col-6 mx-auto border rounded bg-light p-4">
-      <h3>Formulário de cadastro</h3>
-      <p>Coloque seus dados pessoais</p>
-      <div class="form-row">
-        <div class="form-group col-md-5">
-          <label for="nomeCliente">Nome</label>
-          <input type="text" class="form-control" id="nomeCliente" name="nomeCliente" aria-describedby="nomeCliente" placeholder="Nome completo">
+    <form action="./index.php" method="$_POST" class="col-10 mx-auto border rounded p-5">
+      <h1>Formulário de cadastro</h1>
+      <h5>Coloque seus dados pessoais</h5>
+
+      <div class="form-row mt-5 sign-up">
+        <div class="form-group col-md-12">
+          <label for="client-name">Nome</label>
+          <input type="text" class="form-control" id="client-name" name="client-name" aria-describedby="client-name" placeholder="Nome completo">
+        </div>
+
+        <div class="form-group col-md-7">
+          <label for="client-email">Email</label>
+          <input type="email" class="form-control" id="client-email" name="client-email" aria-describedby="client-email" placeholder="Seu email">
         </div>
 
         <div class="form-group col-md-5">
-          <label for="inputEmail">Email</label>
-          <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="inputEmail" placeholder="Seu email">
+          <label for="client-phone">Telefone</label>
+          <input type="text" class="form-control" id="client-phone" name="client-phone" aria-describedby="client-phone" placeholder="DDD + 12345-6789">
         </div>
 
-        <div class="form-group col-md-5">
-          <label for="exampleInputEmail1">Telefone</label>
-          <input type="text" class="form-control" id="telefoneCliente" name="telefoneCliente" aria-describedby="telefoneCliente" placeholder="DDD + 12345-6789">
+        <div class="form-group col-md-12">
+          <label for="client-address">Endereço para entrega</label>
+          <input type="text" class="form-control" id="client-address" name="client-address" aria-describedby="client-address" placeholder="Endereço completo">
         </div>
 
-        <div class="form-group col-md-5">
-          <label for="enderecoCliente">Endereço para entrega</label>
-          <input type="text" class="form-control" id="enderecoCliente" name="enderecoCliente" aria-describedby="enderecoCliente" placeholder="Endereço completo">
+        <div class="form-group col-md-6">
+          <label for="client-password">Senha</label>
+          <input type="password" class="form-control" id="client-password" placeholder="Crie uma senha">
         </div>
 
-        <div class="form-group col-md-5">
-          <label for="exampleInputPassword1">Senha</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Crie uma senha">
+        <div class="form-group col-md-6">
+          <label for="confirm-password">Confirme a senha</label>
+          <input type="password" class="form-control" id="confirm-password" placeholder="Confirme a senha">
         </div>
-
-        <div class="form-group col-md-5">
-          <label for="exampleInputPassword1">Confirme a senha</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirme a senha">
+        
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="agree">
+          <label class="form-check-label" for="agree">Li e estou de acordo com as <a href="politicasPrivacidade.php">Políticas de privacidade</a></label>
+        </div>
+  
+        <div class="col-12 text-center">
+          <button type="submit" class="cta btn btn-dark button mt-5">Confirmar</button>
         </div>
       </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Li e estou de acordo com as <a href="politicasPrivacidade.php"> políticas de privacidade</a></label>
-      </div>
-      <br>
-
-      <button type="submit" class="btn btn-primary">Confirmar</button>
+      
     </form>
-
 
   </main>
 
-  <?php require_once("./inc/footer.php"); ?>
+  <!-- FOOTER -->
+  </div>
+  <?php
+  require_once './inc/footer.php';
+  ?>
 </body>
 
 </html>

@@ -25,7 +25,7 @@
               <input class="text-center" type="email" value="" name="email" placeholder="Seu e-mail aqui">
             </div>
             <div class="mt-3">
-              <button type="submit" name="emailsignup" class="btn button">Assinar</button>
+              <button type="submit" name="emailsignup" class="cta btn button">Assinar</button>
             </div>
           </form>
         </div>
@@ -37,7 +37,7 @@
             <a href="#">Clube de vantagens</a>
           </li>
           <li class="mt-3">
-            <a href="./contact.php">Entre em contato</a>
+            <a href="./contato.php">Entre em contato</a>
           </li>
           <li class="mt-3">
             <a href="./politicasPrivacidade.php">Políticas de privacidade</a>
