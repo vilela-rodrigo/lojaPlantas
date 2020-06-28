@@ -6,13 +6,13 @@
       <div class="col-lg-3 footer-column">
         <ul class="text-center">
           <li class="mt-3">
-            <a href="#">Sobre nós</a>
+            <a href="./sobre.php">Sobre nós</a>
           </li>
           <li class="mt-3">
-            <a href="#">Perguntas frequentes</a>
+            <span class="text-muted">Perguntas frequentes</span>
           </li>
           <li class="mt-3">
-            <a href="#">Informações de entrega</a>
+            <span class="text-muted">Informações de entrega</span>
           </li>
         </ul>
       </div>

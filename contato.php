@@ -5,7 +5,7 @@
 <?php require_once './inc/header.php'; ?>
 
 <!-- CONTACT -->
-<div class="grid-x mt-5">
+<div class="grid-contact mt-5">
     <div class="col-md-6 bg-plant">
         <h1>Precisa entrar em contato com a gente?</h1>
         <h5>Fale conosco</h5>

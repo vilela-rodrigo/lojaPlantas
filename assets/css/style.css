@@ -216,10 +216,28 @@ input:checked + label {
 }
             
 /* CONTACT */
-.grid-x {
+.grid-contact {
     display: flex;
     flex-flow: row wrap;
 }
+
+/* ABOUT */
+.about-container img {
+    width: 100%;
+    border-radius: .3em;
+}
+
+/* .about-container {
+    border: 3px solid lawngreen;
+}
+
+.about-row {
+    border: 3px solid royalblue;
+}
+
+.about-col {
+    border: 3px dotted tomato;
+} */
 
 /* FOOTER */
 footer {
@@ -252,20 +270,13 @@ footer input::placeholder {
     .wrap-all {
         max-width: 540px;
     }
-
-    /* CONTACT */
-    .bg-plant {
-        background-image: url('../images/bgPlanta.png');
-        background-size: 60px;
-        background-position: right bottom;
-        background-repeat: no-repeat;
-    }
 }
 
 @media (min-width: 768px) {
     .wrap-all {
         max-width: 740px;
     }
+    
 }
 
 @media (min-width: 992px) {
