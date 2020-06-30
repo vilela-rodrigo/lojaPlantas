@@ -6,26 +6,26 @@
       <div class="col-lg-3 footer-column">
         <ul class="text-center">
           <li class="mt-3">
-            <a href="#">Sobre nós</a>
+            <a href="./sobre.php">Sobre nós</a>
           </li>
           <li class="mt-3">
-            <a href="#">Perguntas frequentes</a>
+            <span class="text-muted">Perguntas frequentes</span>
           </li>
           <li class="mt-3">
-            <a href="#">Informações de entrega</a>
+            <span class="text-muted">Informações de entrega</span>
           </li>
         </ul>
       </div>
 
       <div class="col-lg-6 footer-column">
         <div class="text-center email">
-          <label class="mt-3 mb-4"><strong>Apoie o verde.</strong></label>
+          <label class="mt-3 mb-4 call"><strong>Apoie o verde.</strong></label>
           <form action="">
             <div>
               <input class="text-center" type="email" value="" name="email" placeholder="Seu e-mail aqui">
             </div>
             <div class="mt-3">
-              <button type="submit" name="emailsignup" class="btn">Assinar</button>
+              <button type="submit" name="emailsignup" class="cta btn button">Assinar</button>
             </div>
           </form>
         </div>
@@ -37,7 +37,10 @@
             <a href="#">Clube de vantagens</a>
           </li>
           <li class="mt-3">
-            <a href="#">Entre em contato</a>
+            <a href="./contato.php">Entre em contato</a>
+          </li>
+          <li class="mt-3">
+            <a href="./politicasPrivacidade.php">Políticas de privacidade</a>
           </li>
         </ul>
       </div>
