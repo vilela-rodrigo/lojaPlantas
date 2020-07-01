@@ -81,7 +81,7 @@
     </section>
 
     <!-- CTA -->
-    <button type="button" class="cta button btn btn-dark mt-3">Comprar planta</button>
+    <button type="button" class="cta button btn btn-dark mt-3">Adicionar planta ao carrinho</button>
 
     </div>
 </main>

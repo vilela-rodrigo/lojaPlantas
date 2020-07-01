@@ -8,11 +8,11 @@
 
   <main class="container my-5">
 
-    <form action="./index.php" method="$_POST" class="col-10 mx-auto border rounded p-5">
+    <form action="./index.php" method="$_POST" class="mx-auto border rounded p-5">
       <h1>Formulário de cadastro</h1>
       <h5>Coloque seus dados pessoais</h5>
 
-      <div class="form-row mt-5 sign-up">
+      <div class="form-row mt-5 sign-up col-sm-12">
         <div class="form-group col-md-12">
           <label for="client-name">Nome</label>
           <input type="text" class="form-control" id="client-name" name="client-name" aria-describedby="client-name" placeholder="Nome completo">
