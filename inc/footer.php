@@ -34,7 +34,7 @@
       <div class="col-lg-3 footer-column">
         <ul class="text-center">
           <li class="mt-3">
-            <a href="#">Clube de vantagens</a>
+            <span class="text-muted">Clube de vantagens</span>
           </li>
           <li class="mt-3">
             <a href="./contato.php">Entre em contato</a>

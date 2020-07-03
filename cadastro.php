@@ -13,19 +13,19 @@
       <h5>Coloque seus dados pessoais</h5>
 
       <div class="form-row mt-5 sign-up col-sm-12">
-        <div class="form-group col-md-12">
+        <div class="form-group col-md-6">
           <label for="client-name">Nome</label>
           <input type="text" class="form-control" id="client-name" name="client-name" aria-describedby="client-name" placeholder="Nome completo">
         </div>
 
-        <div class="form-group col-md-7">
-          <label for="client-email">Email</label>
-          <input type="email" class="form-control" id="client-email" name="client-email" aria-describedby="client-email" placeholder="Seu email">
+        <div class="form-group col-md-6">
+          <label for="client-name">Sobrenome</label>
+          <input type="text" class="form-control" id="client-name" name="client-name" aria-describedby="client-name" placeholder="Nome completo">
         </div>
 
-        <div class="form-group col-md-5">
-          <label for="client-phone">Telefone</label>
-          <input type="text" class="form-control" id="client-phone" name="client-phone" aria-describedby="client-phone" placeholder="DDD + 12345-6789">
+        <div class="form-group col-md-12">
+          <label for="client-email">Email</label>
+          <input type="email" class="form-control" id="client-email" name="client-email" aria-describedby="client-email" placeholder="Seu email">
         </div>
 
         <div class="form-group col-md-12">

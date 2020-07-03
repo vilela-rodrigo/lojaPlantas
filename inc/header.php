@@ -79,8 +79,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <h2>Snake Plant Laurentii</h2>
-                                        <div class="price">R$ 99,00</div>
-                                        <h5>Quantidade:</h5>
+                                        <div class="price mb-3">R$ 99,00</div>
                                         <input type="number" value="1" class="quantity form-control">
                                     </div>
                                     <div class="col-md-1 align-self-center float-right mt-2">
@@ -98,8 +97,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <h2>Snake Plant Laurentii</h2>
-                                        <div class="price">R$ 99,00</div>
-                                        <h5>Quantidade:</h5>
+                                        <div class="price mb-3">R$ 99,00</div>
                                         <input type="number" value="1" class="quantity form-control">
                                     </div>
                                     <div class="col-md-1 align-self-center float-right mt-2">

@@ -88,6 +88,13 @@ ul {
     width: 280px;
 }
 
+/* RESET BUTTON */
+.reset-button {
+    border: 0;
+    background-color: rgba(220, 220, 220, 0) ;
+    cursor: pointer;
+}
+
 /* NAV TOP */
 .nav-shop {
     border-bottom: 1px solid #e5e5e5;
