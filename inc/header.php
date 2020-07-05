@@ -1,5 +1,6 @@
 <body>
     <div class="wrap-all">
+
     <!-- NAV TOP -->
     <header class="nav-shop py-2">
         <div class="row flex-nowrap justify-content-between align-items-center">
@@ -9,9 +10,9 @@
                 <a class="name-shop text-dark" href="./index.php">Planteliê</a>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
-                <a class="text-muted cart fa fa-shopping-cart mr-4" href="#" data-toggle="modal" data-target="#modal-cart"></a>
+                <a class="dark cart fa fa-shopping-cart mr-4" href="#" data-toggle="modal" data-target="#modal-cart"></a>
                 <a id="icon-cart">2</a>
-                <a class="btn-sm btn-secondary mr-2 login" href="#" role="button" data-toggle="modal" data-target="#modal-login">Entrar</a>
+                <a class="btn-sm btn-dark mr-2 login" href="#" role="button" data-toggle="modal" data-target="#modal-login">Entrar</a>
             </div>
         </div>
     </header>
@@ -28,7 +29,7 @@
                 </div>
 
                 <div class="modal-body">
-                    <form action="" method="$_POST" class="p-2">
+                    <form action="../conta.php" method="POST" class="p-2">
                         <div class="form-row">
                             <p>Não possui conta?</p>
                             <a class="ml-1" href="./cadastro.php">Cadastre-se aqui</a>.
@@ -47,12 +48,12 @@
                                 <input class="m-2" id="remember-me" type="checkbox">
                                 <span>Lembrar-se de mim nos próximos acessos.</span>
                             </label>
-                        </div>
+                        </div>        
                     </form>
                 </div>
-
+                
                 <div class="modal-footer">
-                    <button type="submit" class="cta btn btn-dark button">Acessar</button>
+                    <a class="btn btn-dark cta button mt-3" href="./conta.php">Acessar</a>
                 </div>
             </div>
         </div>
@@ -83,7 +84,7 @@
                                         <input type="number" value="1" class="quantity form-control">
                                     </div>
                                     <div class="col-md-1 align-self-center float-right mt-2">
-                                        <a href="#" class="" style="color: tomato">Remover</a>
+                                        <a href="#" class="tomato">Remover</a>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +102,7 @@
                                         <input type="number" value="1" class="quantity form-control">
                                     </div>
                                     <div class="col-md-1 align-self-center float-right mt-2">
-                                        <a href="#" class="" style="color: tomato">Remover</a>
+                                        <a href="#" class="tomato">Remover</a>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +131,7 @@
     <!-- NAV SCROLLER -->
     <div class="nav-scroller py-1">
         <nav class="nav d-flex justify-content-between">
-            <a href="#" class="ml-5 p-1 text-muted">Favoritas</a>
+            <a href="./favoritas.php" class="ml-5 p-1 text-muted">Favoritas</a>
             <a href="./catalogo.php" class="p-1 text-muted">Categorias</a>
             <a href="./contato.php" class="mr-5 p-1 text-muted">Contato</a>
         </nav>

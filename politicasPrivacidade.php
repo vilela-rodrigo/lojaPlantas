@@ -45,8 +45,5 @@
     </p>
 </div>
 
-
-<?php require_once("./inc/footer.php"); ?>
-</body>
-
-</html>
+<!-- FOOTER -->
+<?php require_once './inc/footer.php'; ?>

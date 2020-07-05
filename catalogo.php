@@ -148,7 +148,7 @@
         <h4 class="card-title">Planta ZZ</h4>
         <p class="card-text">Planta ZZ tem como característica suas folhas cerosas e grossas folhas. É uma ótima
           purificadora de ar para iniciantes. Serve como ótimo presente de graduação!</p>
-        <a href="./produto.php">+ Adicionar ao carrinho</a>
+        <a href="./produto.php">+ Detalhes da planta</a>
       </div>
     </div>
 
@@ -160,7 +160,7 @@
         <p class="card-text">Se você busca pela planta tropical perfeita para sua casa, não precisa de nada mais do que
           uma Ninho de Pássaro. Conhecida pelas suas folhas onduladas que crescem de uma rosetta central, essa planta
           vai trazer um estalo vibrante para o verde de qualquer espaço.</p>
-        <a href="./produto.php">+ Adicionar ao carrinho</a>
+        <a href="./produto.php">+ Detalhes da planta</a>
       </div>
     </div>
 
@@ -171,7 +171,7 @@
         <h4 class="card-title">Costela de Adão</h4>
         <p class="card-text">Monstera Deliciosa, também conhecida como a “planta do queijo suíço”, é famosa pelos
           peculiares buracos naturais.</p>
-        <a href="./produto.php">+ Adicionar ao carrinho</a>
+        <a href="./produto.php">+ Detalhes da planta</a>
       </div>
     </div>
   </div>
@@ -181,10 +181,10 @@
       <img class="card-img-top" src="./assets/images/plantaQualquer2.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
-        <h4 class="card-title">ZZ Plant</h4>
-        <p class="card-text">The ZZ Plant is characterized by its thick waxy green leaves. It is a great air purifying
-          plant for beginners. This makes a great gift for a new grad!</p>
-        <a href="./produto.php">+ Adicionar ao carrinho</a>
+        <h4 class="card-title">Planta ZZ</h4>
+        <p class="card-text">Planta ZZ tem como característica suas folhas cerosas e grossas folhas. É uma ótima
+          purificadora de ar para iniciantes. Serve como ótimo presente de graduação!</p>
+        <a href="./produto.php">+ Detalhes da planta</a>
       </div>
     </div>
 
@@ -192,11 +192,11 @@
       <img class="card-img-top" src="./assets/images/plantaQualquer3.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
-        <h4 class="card-title">Bird’s Nest Fern</h4>
-        <p class="card-text">If you’re looking for the perfect tropical houseplant, look no further than the Bird’s Nest
-          Fern. Known for its wavy ripple-edge fronds that grow out of a central rosette, this plant will add vibrant
-          pop of green to any space.</p>
-        <a href="./produto.php">+ Adicionar ao carrinho</a>
+        <h4 class="card-title">Ninho de Pássaro</h4>
+        <p class="card-text">Se você busca pela planta tropical perfeita para sua casa, não precisa de nada mais do que
+          uma Ninho de Pássaro. Conhecida pelas suas folhas onduladas que crescem de uma rosetta central, essa planta
+          vai trazer um estalo vibrante para o verde de qualquer espaço.</p>
+        <a href="./produto.php">+ Detalhes da planta</a>
       </div>
     </div>
 
@@ -204,10 +204,10 @@
       <img class="card-img-top" src="./assets/images/plantaQualquer4.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
-        <h4 class="card-title">Monstera Deliciosa</h4>
-        <p class="card-text">Nicknamed the “swiss cheese plant”, the Monstera deliciosa is famous for its quirky natural
-          leaf holes.</p>
-        <a href="./produto.php">+ Adicionar ao carrinho</a>
+        <h4 class="card-title">Costela de Adão</h4>
+        <p class="card-text">Monstera Deliciosa, também conhecida como a “planta do queijo suíço”, é famosa pelos
+          peculiares buracos naturais.</p>
+        <a href="./produto.php">+ Detalhes da planta</a>
       </div>
     </div>
   </div>
@@ -217,10 +217,10 @@
       <img class="card-img-top" src="./assets/images/plantaQualquer2.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
-        <h4 class="card-title">ZZ Plant</h4>
-        <p class="card-text">The ZZ Plant is characterized by its thick waxy green leaves. It is a great air purifying
-          plant for beginners. This makes a great gift for a new grad!</p>
-        <a href="./produto.php">+ Adicionar ao carrinho</a>
+        <h4 class="card-title">Planta ZZ</h4>
+        <p class="card-text">Planta ZZ tem como característica suas folhas cerosas e grossas folhas. É uma ótima
+          purificadora de ar para iniciantes. Serve como ótimo presente de graduação!</p>
+        <a href="./produto.php">+ Detalhes da planta</a>
       </div>
     </div>
 
@@ -228,11 +228,11 @@
       <img class="card-img-top" src="./assets/images/plantaQualquer3.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
-        <h4 class="card-title">Bird’s Nest Fern</h4>
-        <p class="card-text">If you’re looking for the perfect tropical houseplant, look no further than the Bird’s Nest
-          Fern. Known for its wavy ripple-edge fronds that grow out of a central rosette, this plant will add vibrant
-          pop of green to any space.</p>
-        <a href="./produto.php">+ Adicionar ao carrinho</a>
+        <h4 class="card-title">Ninho de Pássaro</h4>
+        <p class="card-text">Se você busca pela planta tropical perfeita para sua casa, não precisa de nada mais do que
+          uma Ninho de Pássaro. Conhecida pelas suas folhas onduladas que crescem de uma rosetta central, essa planta
+          vai trazer um estalo vibrante para o verde de qualquer espaço.</p>
+        <a href="./produto.php">+ Detalhes da planta</a>
       </div>
     </div>
 
@@ -240,10 +240,10 @@
       <img class="card-img-top" src="./assets/images/plantaQualquer4.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="mt-1 ml-1">R$ 99,00</h5>
-        <h4 class="card-title">Monstera Deliciosa</h4>
-        <p class="card-text">Nicknamed the “swiss cheese plant”, the Monstera deliciosa is famous for its quirky natural
-          leaf holes.</p>
-        <a href="./produto.php">+ Adicionar ao carrinho</a>
+        <h4 class="card-title">Costela de Adão</h4>
+        <p class="card-text">Monstera Deliciosa, também conhecida como a “planta do queijo suíço”, é famosa pelos
+          peculiares buracos naturais.</p>
+        <a href="./produto.php">+ Detalhes da planta</a>
       </div>
     </div>
   </div>
@@ -251,17 +251,4 @@
 </main>
 
 <!-- FOOTER -->
-<?php
-require_once './inc/footer.php';
-?>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-</body>
-
-</html>
+<?php require_once './inc/footer.php'; ?>
