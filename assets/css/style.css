@@ -8,6 +8,32 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+    color: #00ab84;
+}
+
+a:hover {
+    color: #005f49;
+}
+
+a::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
+}
+
+span::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
+}
+
+p::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
+}
+
 .wrap-all {
     width: 100%;
     padding-right: 16px;
@@ -24,12 +50,31 @@ h1 {
     letter-spacing: .01em;
 }
 
+h1::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
+}
+
 h2 {
-    font-size: 1em;
+    font-size: 1.5em;
+}
+
+h2::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
 }
 
 h3 {
     font-size: 1em;
+    font-weight: 700;
+}
+
+h3::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
 }
 
 h5 {
@@ -38,8 +83,20 @@ h5 {
     font-size: 16px;
 }
 
+h5::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
+}
+
 ul {
     list-style: none;
+}
+
+ul::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
 }
 
 .name-shop {
@@ -48,15 +105,47 @@ ul {
     font-weight: 700;
 }
 
+.name-shop::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
+}
+
 .price {
     font-size: 1.2em;
     font-weight: 400;
     color: #333;
 }
 
+.price::selection ::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
+}
+
 .call {
     font-family: 'Playfair Display', serif;
     font-size: 1.6em;
+}
+
+.call::selection ::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
+}
+
+.tomato {
+    color: tomato;
+}
+
+.tomato:hover {
+    color: #8A0303;
+}
+
+strong::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
 }
 
 /* BUTTON */
@@ -87,6 +176,13 @@ ul {
     width: 280px;
 }
 
+/* RESET BUTTON */
+.reset-button {
+    border: 0;
+    background-color: rgba(220, 220, 220, 0) ;
+    cursor: pointer;
+}
+
 /* NAV TOP */
 .nav-shop {
     border-bottom: 1px solid #e5e5e5;
@@ -94,6 +190,26 @@ ul {
 
 .cart {
     font-size: 1.2em;
+}
+
+.cart::selection {
+    background: #00ab84;
+    opacity: 50%;
+    color: white;
+}
+
+#icon-cart {
+    height: 18px;
+    width: 18px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: inline-flex;
+    color: white;
+    font-size: .8em;
+    padding-left: 5px;
+    position: absolute;
+    right: 95px;
+    bottom: 15px;
 }
 
 /* NAV SCROLLER */
@@ -165,10 +281,6 @@ ul {
     margin-top: 14px;
 }
 
-label:hover {
-    cursor: pointer;
-}
-
 input[type="radio"] {
     display: none;
 }
@@ -181,7 +293,7 @@ input[type="radio"] {
 .green {
     background: linear-gradient(
         to bottom,
-        green 0px, green 18px,
+        #00ab84 0px, #00ab84 18px,
         white 18px, white 20px 
         );
 }
@@ -227,18 +339,6 @@ input:checked + label {
     border-radius: .3em;
 }
 
-/* .about-container {
-    border: 3px solid lawngreen;
-}
-
-.about-row {
-    border: 3px solid royalblue;
-}
-
-.about-col {
-    border: 3px dotted tomato;
-} */
-
 /* FOOTER */
 footer {
     display: flex;
@@ -249,8 +349,17 @@ footer {
     list-style-type: none;
 }
 
+.footer-column ul::selection {
+    background: #00ab84;
+}
+
 .footer-column a {
     color: #333;
+}
+
+.footer-column a::selection {
+    background: #00ab84;
+    color: white;
 }
 
 footer input {
@@ -264,6 +373,10 @@ footer input::placeholder {
     color: #cccccc;
 }
 
+/* MISC */
+.card {
+    border: 0;
+}
                 
 /* RESPONSIVE */
 @media (min-width: 576px) {
