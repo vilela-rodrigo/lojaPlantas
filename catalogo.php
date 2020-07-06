@@ -109,7 +109,7 @@
 
           <label for="variety-philodendron" class="form-check">
             <input id="variety-philodendron" type="checkbox">
-            <span>Philodendron</span>
+            <span>Filodendro</span>
           </label>
         </div>
       </li>
