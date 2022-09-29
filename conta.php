@@ -22,8 +22,8 @@
 
         <!-- ORDERS -->
         <div class="col-md-7">
-            <table class="table">
-                <thead>
+            <table class="table table-hover">
+                <thead class="thead-dark">
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Data</th>
@@ -56,7 +56,6 @@
                     </tr>
                 </tbody>
             </table>
-
         </div>
     </div>
 </div>

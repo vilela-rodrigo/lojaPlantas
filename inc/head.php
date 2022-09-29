@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" media="screen" />
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon"/>
 
     <title>Planteliê</title>
 </head>

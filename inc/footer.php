@@ -14,7 +14,7 @@
             <span class="text-muted">Perguntas frequentes</span>
           </li>
           <li class="mt-3">
-            <span class="text-muted">Informações de entrega</span>
+          <a href="./admin/diretoria.php">Diretoria</a>
           </li>
         </ul>
       </div>
